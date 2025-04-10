@@ -1,0 +1,513 @@
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CEEP - Centro Estadual de Educação Profissional de Cianorte</title>
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <link rel="shortcut icon" href="./Assets/imgs/ceep.webp" type="image/x-icon">
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+  <div vw class="enabled">
+    <div vw-access-button class="active"></div>
+    <div vw-plugin-wrapper>
+      <div class="vw-plugin-top-wrapper"></div>
+    </div>
+  </div>
+  <div id="loader-wrapper">
+    <div id="loader"></div>
+    <img src="./Assets/imgs/ceep.webp" alt="Logo CEEP">
+  </div>
+
+  <!-- navbar -->
+  <div class="under-header" id="inicio"></div>
+  <div class="parallax"></div>
+  <header class="header">
+    <img class="h-img" src="Assets/imgs/1.webp" alt="Brasão CEEP">
+    <a href="#" class="logo"> CEEP</a>
+    <input type="checkbox" id="check">
+    <label for="check" class="icons">
+      <i class="bx bx-menu" id="menu-icon"></i>
+      <i class="bx bx-x" id="close-icon"></i>
+    </label>
+    <nav class="navbar">
+      <a href="#inicio" style="--i:0;">Ínicio</a>
+      <a href="#video" style="--i:1;">Vídeo</a>
+      <a href="#cursos" style="--i:2;">Cursos</a>
+      <a href="https://maps.app.goo.gl/Jq9RdMvrCTKwh3JY6" target="_blank" style="--i:3;">Localização</a>
+      <a href="https://inscricao.ceepcianorte.com.br/" target="_blank" style="--i:4;">Inscreva-se</a>
+    </nav>
+  </header>
+
+  <!-- parallax -->
+
+  
+
+
+  <section class="all-pages">
+  <!-- page 1 -->
+  <div class="page1">
+    <canvas id="gradient-canvas"></canvas>
+    <div class="Titulo">
+      <p>
+        <span>
+          Centro Estadual de Educação Profissional
+        </span>
+
+      </p>
+    </div>
+    <div class="text-main">
+      <p class="title">No CEEP, unimos ensino médio e cursos técnicos para formar profissionais preparados para o
+        mercado. Com uma estrutura moderna e equipe qualificada, oferecemos uma educação prática e voltada para o
+        futuro.</p>
+    </div>
+  </div>
+
+  <!-- page 2 -->
+  <div class="page2">
+
+    <section class="apres">
+      <div class="apres swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="wrap swiper-slide">
+            <div class="containerr containerr--1" style="background-image: url(./Assets/imgs/ADS.webp);"
+              data-target="#cursos" id="analise" class="course-tab"></div>
+          </div>
+
+          <div class="wrap swiper-slide">
+            <div class="containerr containerr--1" style="background-image: url(./Assets/imgs/QUÍMICA.webp);"
+              data-target="#cursos" id="quimica" class="course-tab"></div>
+          </div>
+
+          <div class="wrap swiper-slide">
+            <div class="containerr containerr--1" style="background-image: url(./Assets/imgs/AGRONEGÓCIOS.webp);"
+              data-target="#cursos" id="agronegocios" class="course-tab"></div>
+          </div>
+
+          <div class="wrap swiper-slide">
+            <div class="containerr containerr--1" style="background-image: url(./Assets/imgs/FARMÁCIA.webp);"
+              data-target="#cursos" id="farmacia" class="course-tab"></div>
+          </div>
+
+          <div class="wrap swiper-slide">
+            <div class="containerr containerr--1" style="background-image: url(./Assets/imgs/VESTUÁRIO.webp);"
+              data-target="#cursos" id="vestuario" class="course-tab"></div>
+          </div>
+
+          <div class="wrap swiper-slide">
+            <div class="containerr containerr--1" style="background-image: url(./Assets/imgs/Marketing.webp);"
+              data-target="#cursos" id="marketing" class="course-tab"></div>
+          </div>
+
+          <div class="wrap swiper-slide">
+            <div class="containerr containerr--1"
+              style="background-image: url(./Assets/imgs/Segurança-de-trabalho.webp);" data-target="#cursos"
+              id="seguranca" class="course-tab"></div>
+          </div>
+
+          <div class="wrap swiper-slide">
+            <div class="containerr containerr--1" style="background-image: url(./Assets/imgs/Recursos-Humanos.webp);"
+              data-target="#cursos" id="recursos-humanos" class="course-tab">
+            </div>
+          </div>
+
+          <div class="wrap swiper-slide">
+            <div class="containerr containerr--1"
+              style="background-image: url(./Assets/imgs/formação-de-doscentes.webp);" data-target="#cursos"
+              id="formacao" class="course-tab"></div>
+          </div>
+
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+      </div>
+    </section>
+
+  </div>
+
+
+  <!-- inicio da page 3 -->
+  <div class="page3">
+    <!-- imagem escola -->
+    <div class="page2-image-container">
+      <img src="./Assets/imgs/banner_escola.webp" alt="Foto da Escola" class="page2-image">
+    </div>
+  </div>
+
+
+
+
+  <div class="fim-de-semana scroll-lock" id="video"></div>
+  <div class="page4">
+    <div class="video-container" id="videoContainer">
+      <div class="video-wrapper">
+        <iframe src="https://player.vimeo.com/video/1017515582?autoplay=1&loop=1&muted=1&background=1" frameborder="0"
+          allow="autoplay; fullscreen; picture-in-picture; clipboard-write" style="width:100%; height:100%;"
+          title="CEEP Cianorte">
+        </iframe>
+      </div>
+    </div>
+  </div>
+  <div class="fim-de-semana-2 scroll-lock" id="cursos"></div>
+</section>
+  <div class="page5">
+
+    <button class="sidebar-toggle"><img src="./Assets/imgs/bar.webp" alt="barra lateral"
+        style="width: 40px; height: 40px;"></button>
+    <div class="course-tabs">
+      <span class="course-tab active"> Desenvolvimento de Sistemas </span>
+      <span class="course-tab"> Química </span>
+      <span class="course-tab">Agronegócios</span>
+      <span class="course-tab">Farmácia</span>
+      <span class="course-tab">Vestuário</span>
+      <span class="course-tab">Marketing</span>
+      <span class="course-tab">Segurança do Trabalho</span>
+      <span class="course-tab">Recursos Humanos</span>
+      <span class="course-tab">Formação de Docentes</span>
+    </div>
+
+    <!-- Seções de slides -->
+    <div class="slideshow-container">
+
+      <!-- Seção Curso 1 -->
+      <div class="slides-section">
+        <div class="slide slide1">
+          <img src="./Assets/imgs/cursos/celular/slide1/ADS_Blur_Cell.webp" alt="Curso 1 Slide 1" id="#ads" class="slide-image-pc">
+            <p>Crie o Seu Futuro Com a Tecnologia</p>
+
+        </div>
+
+        <div class="slide">
+          <img src="./Assets/imgs/cursos/slide2/Ads.webp" alt="Curso 1 Slide 2">
+          <div class="text-slide">
+            <p>No curso de Desenvolvimento de Sistemas do CEEP, você aprenderá a criar e programar soluções tecnológicas
+              que fazem a diferença no dia a dia das pessoas e empresas. Desde a lógica de programação até a construção
+              de aplicativos e sistemas web, você estará preparado para atuar em um dos setores mais dinâmicos e
+              promissores do mercado. Com uma abordagem prática e professores experientes, este curso é o caminho certo
+              para quem quer transformar ideias em inovação.</p>
+          </div>
+        </div>
+      </div>
+      <!-- Seção Curso 2 -->
+      <div class="slides-section">
+        <div class="slide slide1">
+          <img src="./Assets/imgs/cursos/celular/slide1/Quimica Blur Cell.webp" alt="Curso 2 Slide 1" id="#ads" class="slide-image-pc">
+            <p>Transformando Substâncias, Criando Soluções</p>
+
+        </div>
+        <div class="slide">
+          <img src="./Assets/imgs/cursos/slide2/quimica1.webp" alt="Curso 2 Slide 2">
+          <div class="text-slide">
+            <p>No curso de Química do CEEP, você mergulha no universo das transformações químicas, aprendendo a entender
+              e manipular substâncias para criar soluções inovadoras em diversas áreas, como saúde, meio ambiente e
+              indústria. Com laboratórios equipados e uma formação prática, você estará pronto para atuar em um setor
+              essencial e em constante evolução, contribuindo diretamente para o desenvolvimento tecnológico e
+              científico.</p>
+          </div>
+        </div>
+      </div>
+      <!-- Seção Curso 3 -->
+      <div class="slides-section">
+        <div class="slide slide1">
+          <img src="./Assets/imgs/cursos/celular/slide1/Agro Blur Cell.webp" alt="Curso 3 Slide 1" id="#ads" class="slide-image-pc">
+            <p>Conectando o Campo ao Futuro</p>
+
+        </div>
+        <div class="slide">
+          <img src="./Assets/imgs/cursos/slide2/Agro.webp" alt="Curso 3 Slide 2">
+          <img src="" alt="Curso 3 Slide 2">
+          <div class="text-slide">
+            <p>No curso de Agronegócio do CEEP, você será preparado para atuar em um dos setores mais importantes da
+              economia brasileira. Aqui, você aprenderá a gerenciar propriedades rurais, aplicar técnicas de produção
+              sustentável e usar tecnologias inovadoras no campo. O curso oferece uma formação completa, abordando desde
+              a administração até o uso de recursos naturais, garantindo que você possa contribuir com o desenvolvimento
+              do agronegócio de forma consciente e eficiente. Com foco em práticas modernas e demanda crescente, o curso
+              de Agronegócio é ideal para quem busca uma carreira conectada ao futuro do setor.
+            </p>
+          </div>
+        </div>
+      </div>
+      <!-- Seção Curso 4 -->
+      <div class="slides-section">
+        <div class="slide slide1">
+          <img src="./Assets/imgs/cursos/celular/slide1/Farm Blur Cell.webp" alt="Curso 4 Slide 1" id="#ads" class="slide-image-pc">
+            <p>Cuidando da Saúde com Conhecimento e Tecnologia</p>
+
+        </div>
+        <div class="slide">
+          <img src="./Assets/imgs/cursos/slide2/Farmácia.webp" alt="Curso 4 Slide 2">
+          <div class="text-slide">
+            <p>No curso de Farmácia do CEEP, você será capacitado para atuar em uma área fundamental da saúde,
+              aprendendo sobre medicamentos, suas composições e aplicações. A formação inclui desde a manipulação de
+              produtos farmacêuticos até o atendimento em farmácias e a garantia de qualidade dos medicamentos. Com uma
+              abordagem prática e laboratórios equipados, o curso prepara você para atuar em farmácias, laboratórios e
+              indústrias, sempre focado no cuidado com a saúde e no bem-estar das pessoas. Se você deseja uma carreira
+              que combina ciência e cuidado com a vida, o curso de Farmácia é a escolha ideal.</p>
+          </div>
+        </div>
+      </div>
+      <!-- Seção Curso 5 -->
+      <div class="slides-section">
+        <div class="slide slide1">
+          <img src="./Assets/imgs/cursos/celular/slide1/Vest Blur Cell.webp" alt="Curso 5 Slide 1" id="#ads" class="slide-image-pc">
+            <p>Moda e Criatividade que Transformam</p>
+
+        </div>
+        <div class="slide">
+          <img src="./Assets/imgs/cursos/slide2/Vest.webp" alt="Curso 5 Slide 2">
+          <div class="text-slide">
+            <p>No curso de Vestuário do CEEP, você vai aprender a criar e confeccionar peças de moda com qualidade e
+              originalidade. Desde o design até a produção, você desenvolverá habilidades que vão desde o desenho
+              técnico até a costura, modelagem e escolha de materiais. Com uma formação prática e criativa, este curso
+              prepara você para entrar no universo da moda, ajudando a transformar ideias em peças que vestem o mundo
+              com estilo e inovação. </p>
+          </div>
+        </div>
+      </div>
+      <!-- Seção Curso 6 -->
+      <div class="slides-section">
+        <div class="slide slide1">
+          <img src="./Assets/imgs/cursos/celular/slide1/Mark Blur Cell.webp" alt="Curso 6 Slide 1" id="#ads" class="slide-image-pc">
+            <p>Estratégia e Criatividade para Conquistar Resultados</p>
+
+        </div>
+        <div class="slide">
+          <img src="./Assets/imgs/cursos/slide2/marketing.webp" alt="Curso 6 Slide 2">
+          <div class="text-slide">
+            <p> <span style="font-size: 2.3vw; font-weight: 800;">(Este curso será implementado em 2025)</span> <br> No
+              curso de Marketing do CEEP, você desenvolverá as competências necessárias para se destacar em um mercado
+              em constante evolução. A formação abrange desde o planejamento de campanhas publicitárias até a análise de
+              comportamento do consumidor, estratégias digitais e gestão de marcas. Com uma abordagem prática, você
+              aprenderá a criar campanhas criativas, analisar o mercado e utilizar as ferramentas mais modernas para
+              atingir resultados concretos. Em um mundo onde a comunicação é chave para o sucesso dos negócios, o curso
+              de Marketing prepara você para se tornar um profissional estratégico, capaz de conectar empresas e
+              clientes de forma eficaz e inovadora. </p>
+          </div>
+        </div>
+      </div>
+      <!-- Seção Curso 7 -->
+      <div class="slides-section">
+        <div class="slide slide1">
+          <img src="./Assets/imgs/cursos/celular/slide1/Seg Blur Cell.webp" alt="Curso 7 Slide 1" id="#ads" class="slide-image-pc">
+            <p>Protegendo Vidas, Garantindo o Futuro</p>
+
+        </div>
+        <div class="slide">
+          <img src="./Assets/imgs/cursos/slide2/segurança de trabalho.webp" alt="Curso 7 Slide 2">
+          <div class="text-slide">
+            <p>No curso de Segurança do Trabalho do CEEP, você aprenderá a promover a saúde e a segurança nos mais
+              diversos ambientes de trabalho. A formação inclui desde a identificação de riscos até a criação de planos
+              de prevenção, garantindo que você possa atuar de forma prática na proteção de vidas e na minimização de
+              acidentes. Além de técnicas de segurança, o curso aborda a legislação vigente, preparando você para
+              cumprir e implementar as normas regulamentadoras. Em um mundo onde a segurança é uma prioridade cada vez
+              maior, esse curso abre portas para uma carreira estável e com grande impacto social.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="slides-section">
+        <div class="slide slide1">
+          <img src="./Assets/imgs/cursos/celular/slide1/RecH Blur Cell.webp" alt="Curso 8 Slide 1" id="#ads" class="slide-image-pc">
+            <p>Desenvolvendo Pessoas, Transformando Organizações</p>
+
+        </div>
+        <div class="slide">
+          <img src="./Assets/imgs/cursos/slide2/Recursos Humanos.webp" alt="Curso 8 Slide 2">
+          <div class="text-slide">
+            <p>O curso de Recursos Humanos do CEEP capacita você para ser uma peça-chave no sucesso das empresas. Aqui,
+              você vai aprender sobre gestão de talentos, desenvolvimento de equipes e processos de seleção, treinamento
+              e remuneração. A formação também inclui o estudo das relações trabalhistas e estratégias de motivação e
+              liderança, preparando você para atuar diretamente no crescimento pessoal e profissional das equipes. O
+              curso combina teoria e prática para que você esteja pronto para transformar o potencial humano em
+              resultados concretos, contribuindo para o crescimento das organizações em um mercado cada vez mais
+              competitivo.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="slides-section">
+        <div class="slide slide1">
+          <img src="./Assets/imgs/cursos/celular/slide1/Fdd Blur Cell.webp" alt="Curso 9 Slide 1" id="#ads" class="slide-image-pc">
+            <p>Educando para um Futuro Melhor</p>
+
+        </div>
+        <div class="slide">
+          <img src="./Assets/imgs/cursos/slide2/formação de doscentes.webp" alt="Curso 9 Slide 2">
+          <div class="text-slide">
+            <p><span style="font-size: 2.3vw; font-weight: 800;">(Este curso será implementado em 2025)</span> <br>No
+              curso de Formação de Docentes do CEEP, você será preparado para assumir o papel de professor, com a missão
+              de formar e inspirar novas gerações. O curso abrange metodologias de ensino, práticas pedagógicas
+              inovadoras e o uso de tecnologias educacionais, garantindo que você esteja pronto para atuar em diferentes
+              níveis de ensino. Com uma formação que combina teoria e prática, você aprenderá a planejar aulas, avaliar
+              o aprendizado e adaptar o ensino às necessidades dos alunos, sempre com foco no desenvolvimento integral
+              dos estudantes. Se você sonha em fazer a diferença na vida das pessoas, o curso de Formação de Docentes é
+              o primeiro passo para uma carreira que transforma o futuro por meio da educação.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="slider-hint">
+        <p>Clique nas setas para navegar</p>
+        <!-- <i class="bx bx-chevrons-right"></i> -->
+      </div>
+      
+      <div class="nav">
+        <button class="slide-control prev">&#10094;</button>
+        <button class="slide-control next">&#10095;</button>
+      </div>
+
+      <div class="dots">
+        <span class="dot active"></span>
+        <span class="dot"></span>
+
+      </div>
+    </div>
+
+  </div>
+
+
+  <footer class="footer">
+    <div class="waves">
+      <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+        viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
+        <defs>
+          <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
+        </defs>
+        <g class="parallax">
+          <use xlink:href="#gentle-wave" x="48" y="0" fill="rgba(196, 44, 25, 0.9)" />
+          <use xlink:href="#gentle-wave" x="48" y="3" fill="rgba(196, 44, 25, 0.8)" />
+          <use xlink:href="#gentle-wave" x="48" y="5" fill="rgba(196, 44, 25, 0.7)" />
+          <use xlink:href="#gentle-wave" x="48" y="7" fill="rgba(196, 44, 25, 1)" />
+        </g>
+      </svg>
+    </div>
+
+    <div class="content">
+      <div class="contact-info">
+        <p><strong>Endereço:</strong> <a href="https://maps.app.goo.gl/Jq9RdMvrCTKwh3JY6">R. Dom Pedro II, 1550 - Zona 01, Cianorte - PR, 87200-025</p></a>
+        <p><strong>Telefone:</strong> <a href="tel://4436319685">(44) 3631-9685</a></p>
+      </div>
+
+      <div class="copyright">
+        <div class="Creditos">
+          <p>Criado Pelos Estudantes: <br>
+            Murilo Lodi Nascimento (@lodimurilo) <br>
+            André Luiz Gimenez (@andre._lgs) <br>
+            Guilherme Gabriel Ziger Granville (@gui_granville_)
+          </p>
+        </div>
+      </div>
+      <p class="copy">&copy; Centro Estadual de Educação Profissional de Cianorte 2024</p>
+
+
+
+
+
+      <div class="social-links">
+        <a href="https://www.linkedin.com/school/ceep-cianorte/posts/" target="_blank">
+          <img
+            src="Assets/imgs/linkedin.webp">
+        </a>
+        <a href="https://www.facebook.com/ceepcianorte/" target="_blank">
+          <img
+            src="Assets/imgs/facebook.webp">
+        </a>
+        <a href="https://www.instagram.com/ceepcianorte/" target="_blank">
+          <img src="Assets/imgs/instagram.webp" alt="Instagram">
+        </a>
+        <a href="https://wa.me/554436319685" target="_blank">
+          <img src="Assets/imgs/whatsapp.webp" alt="WhatsApp">
+        </a>
+      </div>
+
+
+    </div>
+    <div class="borda-footer"></div>
+  </footer>
+
+  <!-- scripts -->
+  <script src="./Assets/js/bgtext.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="./Assets/js/script-slider.js"></script>
+  <script src="./Assets/js/slider-bar.js"></script>
+  <script src="./Assets/js/swipe-slider.js"></script>
+  <script src="./Assets/js/bgtext.js"></script>
+  <script src="./Assets/js/parallaxscroll.js"></script>
+  <script src="./Assets/js/scroll-lock.js"></script>
+  <script src="./Assets/js/vanilla-tilt.js"></script>
+  <script src="./Assets/js/"></script>
+  <script src="https://player.vimeo.com/api/player.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="./Assets/js/loader.js"></script>
+  <script src="./Assets/js/redirecionamento.js"></script>
+  <script src="./Assets/js/nav-apres.js"></script>
+  <script src="./Assets/js/anchor-vd.js"></script>
+  <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      slidesPerView: 'auto',
+      spaceBetween: 30,
+      centeredSlides: true,
+      freeMode: true,
+      loop: true,
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+    });
+  </script>
+  <script type="text/javascript">
+    VanillaTilt.init(document.querySelectorAll(".swiper-slide"), {
+      max: 8,
+      speed: 400,
+      glare: false,
+      "max-glare": 0.2,
+    });
+  </script>
+  
+
+  <script>
+    new window.VLibras.Widget('https://vlibras.gov.br/app');
+  </script>
+
+  <script>
+    document.querySelectorAll('.containerr').forEach(item => {
+      item.addEventListener('click', () => {
+        const targetId = item.getAttribute('data-target');
+        const targetElement = document.querySelector(targetId);
+
+        if (targetElement) {
+          const offset = -4;
+          const elementPosition = targetElement.getBoundingClientRect().top + window.scrollY;
+          const offsetPosition = elementPosition - offset;
+
+          window.scrollTo({
+            top: offsetPosition,
+            behavior: 'smooth'
+          });
+        }
+      });
+    });
+  </script>
+
+<script>
+  const menuLinks = document.querySelectorAll('.navbar a');
+  const checkBox = document.getElementById('check');
+
+  menuLinks.forEach(link => {
+    link.addEventListener('click', () => {
+      checkBox.checked = false;
+    });
+  });
+
+
+</script>
+
+
+</body>
+</html>
